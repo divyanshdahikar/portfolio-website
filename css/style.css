@@ -9724,7 +9724,7 @@ textarea.form-control {
 .skill-card h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   color: #00ffaa;
 }
 
@@ -9772,7 +9772,7 @@ textarea.form-control {
 .course-card h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
   color: #00ffaa;
 }
 
@@ -9794,4 +9794,10 @@ textarea.form-control {
   font-size: 12px;
   font-weight: 500;
   border: 1px solid rgba(0, 255, 170, 0.3);
+}
+
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
