@@ -9703,3 +9703,95 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+/* Skills Section */
+.skill-card {
+  background: #0b132b;
+  border-radius: 16px;
+  padding: 25px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 255, 170, 0.25);
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #00ffaa;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background: rgba(0, 255, 170, 0.1);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 255, 170, 0.3);
+}
+
+.skill-tags span:hover {
+  background: #00ffaa;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Courses & Certifications Section */
+.course-card {
+  background: #0b132b;
+  border-radius: 16px;
+  padding: 25px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 255, 170, 0.25);
+}
+
+/* Course title */
+.course-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #00ffaa;
+}
+
+/* Course description */
+.course-card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #d0d6f9;
+}
+
+/* Optional: duration / platform badge */
+.course-badge {
+  display: inline-block;
+  margin-top: 12px;
+  background: rgba(0, 255, 170, 0.1);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(0, 255, 170, 0.3);
+}
