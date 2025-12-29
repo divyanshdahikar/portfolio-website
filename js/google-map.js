@@ -27,7 +27,7 @@ function init() {
                         "visibility": "simplified"
                     },
                     {
-                        "hue": "#ff0000"
+                        "hue": " #00ffcb"
                     }
                 ]
             }
