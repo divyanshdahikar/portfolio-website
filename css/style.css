@@ -9770,7 +9770,7 @@ textarea.form-control {
 
 /* Course title */
 .course-card h3 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 30px;
   color: #00ffaa;
@@ -9800,4 +9800,11 @@ textarea.form-control {
 .row {
   margin-left: 0;
   margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .ftco-hireme {
+    margin-top: 0 !important;
+    padding-top: 60px;
+  }
 }
